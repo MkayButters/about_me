@@ -129,7 +129,7 @@ var cheeseArray = ['epoisse de bourgogne', 'stinking bishop', 'rouque fort']
 loop1: while (counter1 < 6) {
 
 
-    for (var i = 0; i < cheeseArray.length; i++) {
+    for (var i = 0; i < tolowercase().cheeseArray.length; i++) {
         if (userQuestion == cheeseArray[i]) {
             alert('Very Good.')
             ca++
